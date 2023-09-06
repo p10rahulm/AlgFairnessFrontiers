@@ -301,7 +301,7 @@ a:hover {
 }
 
 .mainer #Organizers .organizer-card{
-    flex-basis: 360px;
+    flex-basis: 200px;
     flex-grow: 1;
     flex-shrink: 0;
     padding: 10px 20px;
@@ -328,7 +328,7 @@ a:hover {
 }
 
 .mainer #Organizers .organizer-card .speaker-image-holder {
-    flex-basis: 135px;
+    flex-basis: 175px;
     flex-grow: 0;
     text-align: center;
     /*float: left;*/
@@ -347,14 +347,16 @@ a:hover {
     color: #873307;
     padding: 0 0 0.5em 0.5em;
     /*margin: 5px auto;*/
-    width: 250px;
+    width: 200px;
     /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
+    text-align: center;
 }
 
 .mainer #Organizers .organizer-card .author-link-href {
     /*text-decoration-color: #f77e7e;*/
     text-decoration-color: #873307;
     font-size: max(14px,1.25em);
+    /*text-align: center;*/
 }
 
 .mainer #Organizers .organizer-card .seminar-speaker-affiliation {
@@ -364,7 +366,8 @@ a:hover {
     margin: 10px auto;
     font-size: max(12px,1em);
     /*font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;*/
-    /*text-align: center;*/
+    text-align: center;
+    font-size:0.95em;
     /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
 }
 
