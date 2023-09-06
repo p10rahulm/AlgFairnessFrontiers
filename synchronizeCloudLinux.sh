@@ -21,5 +21,5 @@ git push
 # Now attempt to directly update website through SSH
 # Ensure local computer's ssh credentials are added to remote machine's ~/.ssh/authorized_keys
 ssh -t msrseminar@csacloud.iisc.ac.in -p 3232 "./sync.sh"
-echo "Please check that the website https://www.csa.iisc.ac.in/theoryseminars/ is updated"
+echo "Please check that the website http://www.algorithmicfairness.site/ is updated"
 # exit
