@@ -3,11 +3,11 @@
 # 1. Ensure "gcloud auth login" is already done
 # 2. Ensure that you are on the IISc CISCO VPN
 
-gsutil -m rsync -r assets gs://www.algFairnessFrontiers.org/assets
+gsutil -m rsync -r assets gs://www.algorithmicfairness.site/assets
 echo "Assets Directory Synced"
-gsutil -m rsync -r content gs://www.algFairnessFrontiers.org/content
-echo "Contents Directory Synced"
-gsutil -m rsync ./ gs://www.algFairnessFrontiers.org
+# gsutil -m rsync -r content gs://www.algorithmicfairness.site/content
+# echo "Contents Directory Synced"
+gsutil -m rsync ./ gs://www.algorithmicfairness.site
 # gsutil cp index.html gs://www.algFairnessFrontiers.org
 echo "Base Directory Synced"
 

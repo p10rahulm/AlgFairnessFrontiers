@@ -360,6 +360,7 @@ a:hover {
 }
 
 .mainer #Organizers .organizer-card .seminar-speaker-affiliation {
+    width:90%;
     font-weight: bold;
     color: #525252;
     padding: 0 0 0.5em 0;
