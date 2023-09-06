@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta name="description" content="A series of seminars organized by the CSA department at IISc Bangalore in honour of Prof. Ravi Kannan's 70th birthday.">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+    <!--Most Important Scripts-->
+    <script type="text/javascript" src="assets/js/home.js"></script>
+
+    <!--Fonts-->
+    <!--    <link href='https://fonts.googleapis.com/css?family=Alegreya SC&display=swap' rel='stylesheet'>-->
+    <!--    <link href='https://fonts.googleapis.com/css?family=Lora&display=swap' rel='stylesheet'>-->
+    <!--    <link href='https://fonts.googleapis.com/css?family=Open Sans&display=swap' rel='stylesheet'>-->
+
+    <link rel="icon" type="image/jpg" href="assets/images/treeLogo.jpg">
+    <!--    Content Created by Gordon Johnson: https://pixabay.com/users/gdj-1086657/ -->
+
+    <!--Social Media Tags-->
+    <meta property="og:title" content="Seminars in Honour of Prof. Ravi Kannan’s 70th birthday">
+    <meta property="og:site_name" content="Seminars in Honour of Prof. Ravi Kannan’s 70th birthday">
+    <meta property="og:image" itemprop="image"
+          content="https://events.csa.iisc.ac.in/ravikannan/assets/images/treeLogo.jpg"/>
+    <meta property="og:updated_time" content="2021-06-17T18:19:00+05:30"/>
+    <meta property="og:description"
+          content="A series of seminars organized by the CSA department at IISc Bangalore in honour of Prof. Ravi Kannan's 70th birthday">
+    <meta property="og:url" content="https://events.csa.iisc.ac.in/ravikannan/">
+    <meta property="og:updated_time" content="2023-05-08T18:18:18+05:30"/>
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QK0QPZVEZB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QK0QPZVEZB');
+    </script>
+
+    <!--Title-->
+    <!--    <title>IISc-Microsoft Research Seminar Series</title>-->
+    <title>Seminars in Honour of Prof. Ravi Kannan’s 70th birthday</title>
+</head>
+<body>
+<div class="container">
+    <div class="header container-element">
+        <div id="HeaderLogo" class="header-elem" onclick="clickLogo()">
+            <img id="headerLogoImage" src="assets/images/treeLogo.jpg" alt="logo"/>
+        </div>
+
+        <div id="HeaderTitle" class="header-elem" onclick="clickLogo()">
+            Algorithmic Frontiers of Fairness @ FSTTCS
+        </div>
+
+
+    </div>
+    <div class="mainer container-element">
+
+        <div id="intro-holder">
+            <div class="home-text">
+                <div class="home-textpara">
+                    In times when many socially-sensitive decisions are being automated, it is essential to provide
+                    solutions with rigorous fairness guarantees. A principled approach to fairness enables us to
+                    quantify the performance of the deployed algorithms along well-defined fairness constructs.
+                    Indeed, such an exercise is crucial for its scientific merits and for real-world deployments,
+                    which are increasingly required to uphold legal regulations and be explainable. Motivated by
+                    such considerations, the objective of this workshop is to bring together researchers actively
+                    working on Algorithmic Aspects of Fairness and to present recent advances in this filed.
+                </div>
+                <div class="home-textpara">
+                    The workshop will focus, in particular, on questions related to Fair Division.
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--
+        <div id="schedule-heading" class="section-heading">
+            Schedule
+        </div>
+
+        <div id = "schedule" class="home-text">
+            <div class="home-textpara">
+                10:00 AM — 10:30 AM: Tea/coffee
+                <br><br>
+                10:30 AM — 10:35 AM: Welcome address by <a href="https://eecs.iisc.ac.in/people/chiranjib-bhattacharyya/" class="schedule-speaker-link" target="_blank">Chiranjib Bhattacharyya</a>
+                <br>
+                10:35 AM — 10:50 AM: Contributions of Ravindran Kannan by <a href="https://www.cse.iitd.ac.in/~amitk/" class="schedule-speaker-link" target="_blank">Amit Kumar</a>
+                <br><br>
+                10:50 AM — 11:15 AM: <a href="naveenGarg.html"><i>Outliers: How to Handle Them</i></a> by <a href="https://www.cse.iitd.ac.in/~naveen/" class="schedule-speaker-link" target="_blank">Naveen Garg</a>
+                <br>
+                11:15 AM — 11:40 AM: <a href="arindamKhan.html"><i>Online and Dynamic Algorithms for Geometric Set Cover and Hitting Set</i></a>  by <a href="https://www.csa.iisc.ac.in/~arindamkhan/" class="schedule-speaker-link" target="_blank">Arindam Khan</a>
+                <br>
+                11:40 AM — 12:05 AM: <a href="ravishankarK.html"><i>Online Load Balancing with Recourse</i></a>  by <a href="https://rakri.github.io/" class="schedule-speaker-link" target="_blank">Ravishankar Krishnaswamy</a>
+                <br>
+                12:05 PM — 12:30 PM: <a href="anirbanDasgupta.html"><i>Coresets for tensor factorization and Bregman clustering</i></a>  by <a href="https://iitgn.ac.in/faculty/cse/anirban" class="schedule-speaker-link" target="_blank">Anirban Dasgupta</a>
+                <br><br>
+                12:30 PM — 01:30 PM: Lunch
+                <br><br>
+                02:00 PM — 02:25 PM: <a href="prateekJain.html"><i>Towards neural networks robust to distribution shifts</i></a>  by <a href="https://www.prateekjain.org/" class="schedule-speaker-link" target="_blank">Prateek Jain</a>
+                <br>
+                02:25 PM — 02:50 PM: <a href="amitDeshpande.html"><i>Sampling Ex-Post Fair Rankings</i></a>  by <a href="https://www.microsoft.com/en-us/research/people/amitdesh/" class="schedule-speaker-link" target="_blank">Amit Deshpande</a>
+                <br>
+                02:50 PM — 03:15 PM: <a href="anandLouis.html"><i>Recovering Planted Subgraphs Using Semidefinite Programming</i></a>  by <a href="https://www.csa.iisc.ac.in/~anandl/" class="schedule-speaker-link" target="_blank">Anand Louis</a>
+                <br>
+                03:15 PM — 03:40 PM: <a href="siddharthBarman.html"><i>Collective Welfare as a Metric in Algorithmic Decision Making</i></a>  by <a href="https://www.csa.iisc.ac.in/~barman/" class="schedule-speaker-link" target="_blank">Siddharth Barman</a>
+                <br><br>
+                03:40 PM — 04:00 PM: Coffee Break
+                <br><br>
+                04:00 PM — 05:00 PM: Comments and Felicitation
+                <br><br>
+            </div>
+        </div>
+        -->
+        <div id="organizers-heading" class="section-heading">
+            Organizers
+        </div>
+        <div id="Organizers" class="main flexHolder">
+
+            <div class="organizer-card">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.cse.iitd.ac.in/~amitk/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/amitKumar.jpeg" alt="Amit Kumar Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.cse.iitd.ac.in/~amitk/"
+                       target="_blank">
+                        Amit Kumar
+                    </a>
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.cse.iitd.ac.in/"
+                           target="_blank">
+                            Indian Institute of Technology, Delhi
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="organizer-card">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://eecs.iisc.ac.in/people/chiranjib-bhattacharyya/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/chiranjibBhattacharya.jpeg" alt="Chiru Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://eecs.iisc.ac.in/people/chiranjib-bhattacharyya/"
+                       target="_blank">
+                        Chiranjib Bhattacharya
+                    </a>
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.csa.iisc.ac.in/"
+                           target="_blank">
+                            Indian Institute of Science, Bangalore
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div id="speakers-heading" class="section-heading">
+            Speakers
+        </div>
+
+        <div id="Talks" class="main flexHolder">
+
+            <div class="author-card" onclick="window.location = 'amitDeshpande.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.microsoft.com/en-us/research/people/amitdesh/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/amitDeshpande.jpeg" alt="Amit Deshpande Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.microsoft.com/en-us/research/people/amitdesh/"
+                       target="_blank">
+                        Amit Deshpande
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
+                           target="_blank">
+                            Microsoft Research, Bangalore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--
+            <div class="author-card">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.cse.iitd.ac.in/~amitk/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/amitKumar.jpeg" alt="Amit Kumar Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.cse.iitd.ac.in/~amitk/"
+                       target="_blank">
+                        Amit Kumar
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.cse.iitd.ac.in/"
+                           target="_blank">
+                            Indian Institute of Technology, Delhi
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            -->
+
+            <div class="author-card" onclick="window.location = 'anandLouis.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.csa.iisc.ac.in/~anandl/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/anandLouis.jpeg" alt="Anand Louis Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.csa.iisc.ac.in/~anandl/"
+                       target="_blank">
+                        Anand Louis
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.csa.iisc.ac.in/"
+                           target="_blank">
+                            Indian Institute of Science, Bangalore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="author-card" onclick="window.location = 'anirbanDasgupta.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://iitgn.ac.in/faculty/cse/anirban"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/anirbanDasgupta.jpeg" alt="Anirban Dasgupta Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://iitgn.ac.in/faculty/cse/anirban"
+                       target="_blank">
+                        Anirban Dasgupta
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://cs.iitgn.ac.in/"
+                           target="_blank">
+                            Indian Institute of Technology, Gandhinagar
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="author-card" onclick="window.location = 'arindamKhan.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.csa.iisc.ac.in/~arindamkhan/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/arindamKhan.jpg" alt="Arindam Khan Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.csa.iisc.ac.in/~arindamkhan/"
+                       target="_blank">
+                        Arindam Khan
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.csa.iisc.ac.in/"
+                           target="_blank">
+                            Indian Institute of Science, Bangalore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="author-card" onclick="window.location = 'naveenGarg.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.cse.iitd.ac.in/~naveen/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/naveenGarg.jpeg" alt="Naveen Garg Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.cse.iitd.ac.in/~naveen/"
+                       target="_blank">
+                        Naveen Garg
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.cse.iitd.ac.in/"
+                           target="_blank">
+                            Indian Institute of Technology, Delhi
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="author-card" onclick="window.location = 'prateekJain.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.prateekjain.org/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/prateekJain.jpg" alt="Prateek Jain Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.prateekjain.org/"
+                       target="_blank">
+                        Prateek Jain
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://research.google/locations/india/"
+                           target="_blank">
+                            Google Research, Bangalore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="author-card" onclick="window.location = 'ravishankarK.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://rakri.github.io/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/ravishankarKrishnaswamy.jpeg" alt="Ravishankar Krishnaswamy Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://rakri.github.io/"
+                       target="_blank">
+                        Ravishankar Krishnaswamy
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
+                           target="_blank">
+                            Microsoft Research, Bangalore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="author-card" onclick="window.location = 'siddharthBarman.html'">
+                <div class="speaker-image-holder">
+                    <a class="author-image-link-href"
+                       href="https://www.csa.iisc.ac.in/~barman/"
+                       target="_blank">
+                        <img class="speaker-image"
+                             src="assets/authorImages/siddharthBarman.jpeg" alt="Siddharth Barman Photo">
+                    </a>
+                </div>
+
+                <div class="seminar-speaker">
+                    <a class="author-link-href"
+                       href="https://www.csa.iisc.ac.in/~barman/"
+                       target="_blank">
+                        Siddharth Barman
+                    </a>
+
+
+                    <div class="seminar-speaker-affiliation">
+                        <a class="affiliation-link-href"
+                           href="https://www.csa.iisc.ac.in/"
+                           target="_blank">
+                            Indian Institute of Science, Bangalore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="footer container-element" onclick="loadHome('content/')">
+        <div id="copyright">
+            &copy; 2023 <a href="https://www.iisc.ac.in" target="_blank">Indian Institute of Science, Bangalore</a>.
+            Website maintained by Rahul Madhavan.
+        </div>
+
+    </div>
+</div>
+
+<script type="text/x-mathjax-config" defer>
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+
+
+
+
+
+</script>
+<script type="text/javascript" defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/javascript" defer>
+    WebFontConfig = {
+        google: {
+            families: ['Lora', 'Open Sans', 'Alegreya SC']
+        }
+    };
+
+    (function (d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+    })(document);
+</script>
+</body>
+
+</html>
