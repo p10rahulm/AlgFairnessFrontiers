@@ -88,6 +88,19 @@ a:hover {
     flex-shrink: 1
 }
 
+.header #headerSubheading {
+    /*text-align: center;*/
+    vertical-align: bottom;
+    padding-top: 20px;
+
+    font-family: "Lora", Georgia, Times, "Times New Roman", Serif;
+    /*color: #005999;*/
+    color: #005999;
+    font-size: min(4vw, 1.25em);
+    font-weight: bold;
+}
+
+
 .sticky {
     position: sticky;
 }
