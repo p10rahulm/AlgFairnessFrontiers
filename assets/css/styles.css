@@ -96,7 +96,7 @@ a:hover {
     font-family: "Lora", Georgia, Times, "Times New Roman", Serif;
     /*color: #005999;*/
     color: #005999;
-    font-size: min(4vw, 1em);
+    font-size: min(3vw, 0.75em);
     font-weight: bold;
 }
 
