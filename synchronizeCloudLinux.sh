@@ -17,7 +17,6 @@ git add -A
 git commit -m "content changes"
 git push
 
-
 # Now attempt to directly update website through SSH
 # Ensure local computer's ssh credentials are added to remote machine's ~/.ssh/authorized_keys
 ssh -t events@csacloud.iisc.ac.in -p 3232 "./syncAlgFairness.sh"
