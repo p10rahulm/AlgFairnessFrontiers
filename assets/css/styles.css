@@ -790,3 +790,13 @@ a:hover {
     color: #575757;
     text-decoration: underline;
 }
+#schedule .schedule-line{
+    color: #646464;
+    padding: 10px 0;
+    font-weight: normal;
+}
+#schedule .schedule-line-important{
+    /*color: #9a0229;*/
+    color: #9a0229;
+    font-weight: normal;
+}
