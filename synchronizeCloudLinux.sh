@@ -20,6 +20,6 @@ git push
 # Now attempt to directly update website through SSH
 # Ensure local computer's ssh credentials are added to remote machine's ~/.ssh/authorized_keys
 ssh -t events@csacloud.iisc.ac.in -p 3232 "./syncAlgFairness.sh"
-echo "Please check that the website http://www.algorithmicfairness.site/"
-echo "and https://events.csa.iisc.ac.in/algorithmic-fairness-2023/ are updated"
+echo Please check that the website http://www.algorithmicfairness.site/
+echo and https://events.csa.iisc.ac.in/algorithmic-fairness-2023/ are updated
 # exit
