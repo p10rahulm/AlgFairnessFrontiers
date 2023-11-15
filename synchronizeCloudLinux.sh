@@ -8,7 +8,7 @@ echo "Assets Directory Synced"
 # gsutil -m rsync -r content gs://www.algorithmicfairness.site/content
 # echo "Contents Directory Synced"
 gsutil -m rsync ./ gs://www.algorithmicfairness.site
-# gsutil cp index.html gs://www.algFairnessFrontiers.org
+# gsutil cp index.html gs://www.algorithmicfairness.site/content
 echo "Base Directory Synced"
 
 
