@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", Georgia, Cambria, Times, "Times New Roman", Serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.6;
@@ -204,7 +204,7 @@ a:hover {
 }
 
 .mainer #Home #institutions .institute .institute-name .institute-name-link {
-    font-family: "Open Sans", Georgia, Cambria, Times, "Times New Roman", Serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     font-weight: bold;
     color: #01487b;
     /*color: #01487bcc;*/
@@ -251,7 +251,7 @@ a:hover {
     cursor: pointer;
     display: inline-flex;
     fill: currentcolor;
-    font-family: "Open Sans", Roboto, Arial, sans-serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     font-size: 14px;
     font-weight: 800;
     height: 48px;
@@ -643,11 +643,11 @@ a:hover {
     padding: 5px 0;
     /*color: #006544;*/
     color: #00631e;
-    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", Serif;
+    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
 }
 
 #seminarHome .seminar-abstract {
-    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     padding: 15px 0;
     text-align: justify;
     line-height: 1.6;
@@ -662,7 +662,7 @@ a:hover {
     font-weight: 500;
     font-size: max(11px, 0.9em);
     color: #a2a2a2;
-    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
 }
 
 #seminarHome .seminar-paper {
@@ -671,7 +671,7 @@ a:hover {
     font-size: max(11px, 0.9em);
     font-style: italic;
     color: #a2a2a2;
-    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
 }
 
 #seminarHome .seminar-recording {
@@ -680,7 +680,7 @@ a:hover {
     font-size: max(11px, 0.9em);
     font-style: italic;
     color: #a2a2a2;
-    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
 }
 
 #SpeakerPageHolder .author-card{
@@ -747,7 +747,7 @@ a:hover {
     padding: 0 0 0.5em 0;
     margin: 10px auto;
     font-size: max(14px, 1.2em);
-    font-family: 'Lora', Georgia, Cambria, Times, "Times New Roman", Serif;
+    font-family: 'Lora', Georgia, Cambria, Times, "Times New Roman", serif;
     /*text-align: center;*/
     /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
 }
@@ -760,7 +760,7 @@ a:hover {
     text-align: center;
     font-size: max(16px, 2em);
     font-weight: bold;
-    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", Serif;
+    font-family: 'Lora', Georgia, Cambria, Times, "Times New Roman", serif;
     /*color: rgba(158, 29, 29, 0.85);*/
     /*color: #ab3c3cd9;*/
     color: #325698c4;
@@ -774,7 +774,7 @@ a:hover {
     text-align: center;
     margin: 15px auto 0;
     padding: 10px 0;
-    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", Serif;
+    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
     font-size: max(14px, 1.2em);
     color: #863507;
     border-top: 1px solid #eceefb;
@@ -791,14 +791,14 @@ a:hover {
     text-decoration: underline;
 }
 #schedule .schedule-line{
-    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     color: #646464;
     padding: 3px 0;
-    font-weight: normal;
+    font-weight: 500;
 }
 #schedule .schedule-line-important{
+    font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     /*color: #9a0229;*/
-    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
     color: #9a0229;
-    font-weight: normal;
+    font-weight: 600;
 }
