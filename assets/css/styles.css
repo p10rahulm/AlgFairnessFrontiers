@@ -804,8 +804,9 @@ a:hover {
 }
 
 .youtube-container{
-    min-height: 300px;
+    min-height: 320px;
     min-width: 480px;
+    max-width: 90vh;
     height: 60vh;
     width: 95%;
     margin: 0 auto;
