@@ -804,7 +804,8 @@ a:hover {
 }
 
 .youtube-container{
-    height: 100vh;
+    min-height: 315px;
+    height: 80vh;
     width: 100%;
 }
 .youtube-iframe{
