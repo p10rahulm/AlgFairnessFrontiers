@@ -802,3 +802,12 @@ a:hover {
     color: #9a0229;
     font-weight: 600;
 }
+
+.youtube-container{
+    height: 100vh;
+    width: 100%;
+}
+.youtube-iframe{
+    width: 100%;
+    height: 100%;
+}
