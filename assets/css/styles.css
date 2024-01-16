@@ -91,7 +91,7 @@ a:hover {
 .header #headerSponsor {
     /*text-align: center;*/
     vertical-align: bottom;
-    padding-top: 20px;
+    padding-top: 25px;
 
     font-family: "Lora", Georgia, Times, "Times New Roman", Serif;
     /*color: #005999;*/
@@ -104,7 +104,7 @@ a:hover {
 .header #headerSubheading {
     /*text-align: center;*/
     vertical-align: bottom;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: "Lora", Georgia, Times, "Times New Roman", Serif;
     /*color: #005999;*/
     color: #005999;
