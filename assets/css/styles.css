@@ -88,15 +88,27 @@ a:hover {
     flex-shrink: 1
 }
 
-.header #headerSubheading {
+.header #headerSponsor {
     /*text-align: center;*/
     vertical-align: bottom;
     padding-top: 20px;
 
     font-family: "Lora", Georgia, Times, "Times New Roman", Serif;
     /*color: #005999;*/
+    /*color: #009903;*/
+    color: #006633;
+    font-size: min(2.5vw, 0.63em);
+    font-weight: bold;
+}
+
+.header #headerSubheading {
+    /*text-align: center;*/
+    vertical-align: bottom;
+    padding-top: 20px;
+    font-family: "Lora", Georgia, Times, "Times New Roman", Serif;
+    /*color: #005999;*/
     color: #005999;
-    font-size: min(3vw, 0.75em);
+    font-size: min(2.5vw, 0.63em);
     font-weight: bold;
 }
 
